@@ -38,6 +38,7 @@ namespace WindowsFormsApplication3
                 this.Hide();
                 Pocetnik prozorec0 = new Pocetnik();
                 prozorec0.ShowDialog();
+                this.Close();
                 }
                 //this.Close();
             }
@@ -50,6 +51,7 @@ namespace WindowsFormsApplication3
                     this.Hide();
                     Napreden prozorec1 = new Napreden();
                     prozorec1.ShowDialog();
+                    this.Close();
                 }
                 //this.Close();
             }
