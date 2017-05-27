@@ -107,24 +107,33 @@ namespace WindowsFormsApplication3
 
             }
 
-            if (krajIgra == 8)
+            if (krajIgra == 1)
             {
-                MessageBox.Show("Успешно ја завршивте играта");
-                this.Hide();
-                Wlc prozorec = new Wlc();
-                prozorec.ShowDialog();
-
+                DialogResult dialog = MessageBox.Show("Браво " + ime + " ја завршивте играта за " + sekundi + " секунди. Дали сакате нова игра?", "Крај на играта", MessageBoxButtons.YesNo);
+                if (dialog == DialogResult.No)
+                    Close();
+                else if (dialog == DialogResult.Yes)
+                {
+                    this.Hide();
+                    Wlc prozorec = new Wlc();
+                    prozorec.ShowDialog();
+                }
             }
             else
             {
-                MessageBox.Show("Само " + krajIgra + " полиња ви се на исто место");
+                DialogResult dialog = MessageBox.Show(ime + " : Само " + krajIgra + " полиња Ви се на точно место. Дали сакате да започнете нова игра ?", "Крај на играта", MessageBoxButtons.YesNoCancel);
+                if (dialog == DialogResult.Yes)
+                {
+                    this.Hide();
+                    Wlc prozorec = new Wlc();
+                    prozorec.ShowDialog();
+                }
+                else if (dialog == DialogResult.No) Close();
+
                 krajIgra = 0;
                 flagTimer = 1;
             }
-           // MessageBox.Show("Браво " + ime + " ја завршивте играта за " + sekundi + " секунди");          
-            Igraci igrac = new Igraci(ime, sekundi);
-           // Close();
-            
+
         }
 
 
