@@ -256,7 +256,7 @@ namespace WindowsFormsApplication3
             }
             else
             {
-               DialogResult dialog = MessageBox.Show( ime + ": Само "+ krajIgra+ " полиња Ви се на точно место. Дали сакате да започнете нова игра ?","Крај на играта", MessageBoxButtons.YesNoCancel);
+               DialogResult dialog = MessageBox.Show( ime + " Само "+ krajIgra+ " полиња Ви се на точно место. Дали сакате да започнете нова игра ?","Крај на играта", MessageBoxButtons.YesNoCancel);
                 if(dialog == DialogResult.Yes)
                 {
                     this.Hide();

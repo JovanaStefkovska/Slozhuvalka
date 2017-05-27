@@ -52,7 +52,7 @@ namespace WindowsFormsApplication3
             int y = Prazna.Y - kopche.Location.Y;
             int py = y < 0 ? -y : y;
             //moving right &left
-            if (kopche.Location.Y.Equals(Prazna.Y) && px.Equals(kopche.Size.Width + 10))
+            if (kopche.Location.Y.Equals(Prazna.Y) && px.Equals(kopche.Size.Width + 10 ))
             {
 
                 kopche.Location = new Point(kopche.Location.X + x, kopche.Location.Y);
@@ -61,7 +61,7 @@ namespace WindowsFormsApplication3
 
             }
             //moving top &bottom
-            if (kopche.Location.X.Equals(Prazna.X) && py.Equals(kopche.Size.Width + 10))
+            if (kopche.Location.X.Equals(Prazna.X) && py.Equals(kopche.Size.Width + 10 ))
             {
                 kopche.Location = new Point(kopche.Location.X, kopche.Location.Y + y);
                 Prazna.Y -= y;
@@ -121,7 +121,7 @@ namespace WindowsFormsApplication3
             }
             else
             {
-                DialogResult dialog = MessageBox.Show(ime + " : Само " + krajIgra + " полиња Ви се на точно место. Дали сакате да започнете нова игра ?", "Крај на играта", MessageBoxButtons.YesNoCancel);
+                DialogResult dialog = MessageBox.Show(ime + " Само " + krajIgra + " полиња Ви се на точно место. Дали сакате да започнете нова игра ?", "Крај на играта", MessageBoxButtons.YesNoCancel);
                 if (dialog == DialogResult.Yes)
                 {
                     this.Hide();
