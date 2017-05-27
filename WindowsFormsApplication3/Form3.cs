@@ -110,7 +110,10 @@ namespace WindowsFormsApplication3
             if (krajIgra == 8)
             {
                 MessageBox.Show("Успешно ја завршивте играта");
-                Close();
+                this.Hide();
+                Wlc prozorec = new Wlc();
+                prozorec.ShowDialog();
+
             }
             else
             {
@@ -155,6 +158,7 @@ namespace WindowsFormsApplication3
         {
             if (flagTimer == 1)
             {
+                button18.Text = "Продолжи";
                 canPlay = 0;
                 flagTimer = 0;
                 button1.Visible = false;
@@ -169,6 +173,7 @@ namespace WindowsFormsApplication3
             }
             else
             {
+                button18.Text = "Пауза";
                 flagTimer = 1;
                 canPlay = 1;
                 button1.Visible = true;

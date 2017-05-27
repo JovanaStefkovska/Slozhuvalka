@@ -263,6 +263,7 @@ namespace WindowsFormsApplication3
         {
             if (flagTimer == 1)
             {
+                btnPauza.Text = "Продолжи";
                 canPlay = 0;
                 flagTimer = 0;
                 button1.Visible = false;
@@ -285,6 +286,7 @@ namespace WindowsFormsApplication3
             }
             else
             {
+                btnPauza.Text = "Пауза";
                 flagTimer = 1;
                 canPlay = 1;
                 button1.Visible = true;

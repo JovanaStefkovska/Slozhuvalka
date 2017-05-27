@@ -45,3 +45,15 @@ C:\Users\Jovana\Downloads\proekt\Sredeno\WindowsFormsApplication3\obj\Debug\Wind
 C:\Users\Jovana\Downloads\proekt\Sredeno\WindowsFormsApplication3\obj\Debug\WindowsFormsApplication3.Form4.resources
 C:\Users\Jovana\Downloads\proekt\Sredeno\WindowsFormsApplication3\obj\Debug\WindowsFormsApplication3.Properties.Resources.resources
 C:\Users\Jovana\Downloads\proekt\Sredeno\WindowsFormsApplication3\obj\Debug\WindowsFormsApplication3.csproj.GenerateResource.Cache
+C:\Users\Jovana\Slozhuvalka\WindowsFormsApplication3\bin\Debug\WindowsFormsApplication3.exe.config
+C:\Users\Jovana\Slozhuvalka\WindowsFormsApplication3\obj\Debug\WindowsFormsApplication3.exe
+C:\Users\Jovana\Slozhuvalka\WindowsFormsApplication3\obj\Debug\WindowsFormsApplication3.pdb
+C:\Users\Jovana\Slozhuvalka\WindowsFormsApplication3\bin\Debug\WindowsFormsApplication3.exe
+C:\Users\Jovana\Slozhuvalka\WindowsFormsApplication3\bin\Debug\WindowsFormsApplication3.pdb
+C:\Users\Jovana\Slozhuvalka\WindowsFormsApplication3\obj\Debug\WindowsFormsApplication3.csprojResolveAssemblyReference.cache
+C:\Users\Jovana\Slozhuvalka\WindowsFormsApplication3\obj\Debug\WindowsFormsApplication3.Wlc.resources
+C:\Users\Jovana\Slozhuvalka\WindowsFormsApplication3\obj\Debug\WindowsFormsApplication3.Napreden.resources
+C:\Users\Jovana\Slozhuvalka\WindowsFormsApplication3\obj\Debug\WindowsFormsApplication3.Pocetnik.resources
+C:\Users\Jovana\Slozhuvalka\WindowsFormsApplication3\obj\Debug\WindowsFormsApplication3.Form4.resources
+C:\Users\Jovana\Slozhuvalka\WindowsFormsApplication3\obj\Debug\WindowsFormsApplication3.Properties.Resources.resources
+C:\Users\Jovana\Slozhuvalka\WindowsFormsApplication3\obj\Debug\WindowsFormsApplication3.csproj.GenerateResource.Cache

@@ -100,6 +100,7 @@
             // 
             // containerPocetnik
             // 
+            this.containerPocetnik.BackColor = System.Drawing.Color.Transparent;
             this.containerPocetnik.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.containerPocetnik.Controls.Add(this.button8);
             this.containerPocetnik.Controls.Add(this.button7);
