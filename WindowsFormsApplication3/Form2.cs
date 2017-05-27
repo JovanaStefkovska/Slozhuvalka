@@ -242,7 +242,7 @@ namespace WindowsFormsApplication3
 
             }
 
-            if (krajIgra == 8)
+            if (krajIgra == 15)
             {
                DialogResult dialog = MessageBox.Show("Браво " + ime + " ја завршивте играта за " + sekundi + " секунди. Дали сакате нова игра?","Крај на играта", MessageBoxButtons.YesNo);
                 if(dialog == DialogResult.No)
