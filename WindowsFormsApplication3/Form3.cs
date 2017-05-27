@@ -19,7 +19,7 @@ namespace WindowsFormsApplication3
         int obidiPomos = 5;
         int canPlay = 1;
         int krajIgra = 0;
-        String ime = Wlc.ImeIgrac;
+        public static String ime = Wlc.ImeIgrac;
         public static Image slika = Wlc.Basic;
         public static Image help;
 
